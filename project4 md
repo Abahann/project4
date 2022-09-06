@@ -1,0 +1,24 @@
+## MEAN STACK DEPLOYMENT TO UBUNTU IN AWS DOCUMENTATION
+
+`sudo apt update`
+`sudo apt upgrade`
+`sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates`
+![certifcates status](./images/certificates%20status.png)
+`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+`sudo apt install -y nodejs`
+![nodejs status](./images/nodejs%20status.png)
+`sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6`
+`![sudo apt-key status](./images/sudo%20apt-key%20status.png)
+`sudo apt install -y mongodb`
+![-y mongodb status](./images/-y%20mongodb%20status.png)
+`sudo service mongodb start`
+`sudo systemctl status mongodb`
+`sudo apt install -y npm`
+![npm status](./images/npm%20status.png)
+`sudo npm install body-parser`
+![body-parser status](./images/body-parser%20status.png)
+`mkdir Books && cd Books`
+`sudo npm install express mongoose`
+![express mongoose status](./images/express%20mongoose%20status.png)
+`node server.js`
+![web book status](./images/web%20book%20status.png)

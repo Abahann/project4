@@ -1,1 +1,2 @@
 # project4
+this project is all about implementing a simple book web form making use of MEAN stack. we mad use of node.js which is a javascript use in this project to set up Express routes and Angular.JS contollers.Mongodb was use to store the data in a flexible j-son like document. Express was also use to pass book information to and from our mongoDb database.gcd
